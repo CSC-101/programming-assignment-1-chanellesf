@@ -157,7 +157,6 @@ class Employee:
     def __repr__(self):
         return "Employee('{}', {})".format(self.name, self.pay_rate)
 
-
     # Compare the Employee object with another value to determine equality.
     # input: Employee against which to compare
     # input: Another value to compare to the Employee
