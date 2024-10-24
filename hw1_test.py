@@ -16,7 +16,7 @@ class TestCases(unittest.TestCase):
         self.assertEqual(actual, result)
 
     def test_vowel_count_2(self):
-        word = 'sorrow'
+        word = 'SORROW'
         actual = hw1.vowel_count(word)
         expected = 2
         self.assertEqual(actual, expected)

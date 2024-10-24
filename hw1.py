@@ -9,7 +9,7 @@ from data import Rectangle
 # INPUT: string
 # OUTPUT: int representing the number of vowels in the given string
 def vowel_count(text : str) -> int:
-    vowels = ['a','e','i','o','u']
+    vowels = ['a','e','i','o','u', 'A', 'E', 'I', 'O', 'U']
     in_text = [i for i in text if i in vowels]
     return len(in_text)
 
