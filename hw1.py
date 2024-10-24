@@ -88,5 +88,5 @@ def below_pay_average(employees : list[data.Employee]) -> list[str]:
     if len(employees) == 0:
         print("No employees found.")
         return [""]
-    avg_pay = average([float(x.pay_rate) for x in employees])
+    avg_pay = average([float(x.pay_rate) for x in employees]                                                                                                                                                              )
     return [x.name for x in employees if x.pay_rate < avg_pay]
